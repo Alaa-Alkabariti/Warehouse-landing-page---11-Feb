@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 80px;
+  position: absolute;
+  top: 0px;
+  left: 10%;
+}
+
+.logo {
+  margin-right: 8px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.leftNav {
+  width: 70%;
+  /* height: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+ul {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: #ffffff;
+}
+
+ul li:hover {
+  color: #cccfcf;
+  cursor: pointer;
+  border-bottom: 3px solid #cccfcf;
+  margin-bottom: 2px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.menu {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  margin: 1px;
+}
+
+.menu button {
+  width: 25%;
+  height: auto;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 5px;
+  padding: 10px 0px 10px 0px;
+}
+
+.menu button:hover {
+  background-color: #658602;
+  color: #fff;
+  border: none;
+}
+.signIn:hover {
+  background-color: #05415f!important;
+  color: #fff;
+  border: none;
+}
+
+.orderNow {
+  color: #c3ff10;
+  background-color: transparent;
+  border: 0.3px solid #c3ff10;
+}
+.signIn {
+  color: #b7bcbe;
+  background-color: transparent;
+  border: 0.3px solid #b7bcbe;
+}

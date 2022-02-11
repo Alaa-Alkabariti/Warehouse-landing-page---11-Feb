@@ -1,0 +1,7 @@
+.sectionHeader {
+    position: absolute;
+    top: 950px;
+    width: 80%;
+    height: 300px;
+    background-color: red;
+}
